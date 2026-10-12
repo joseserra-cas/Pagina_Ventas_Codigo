@@ -1,0 +1,40 @@
+/* =========================
+   CTA
+========================= */
+
+#contacto {
+  text-align: center;
+
+  background-color: #111827;
+
+  color: #ffffff;
+}
+
+#contacto h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#contacto p {
+  color: #d1d5db;
+  margin-bottom: 30px;
+}
+
+#contacto button {
+  padding: 15px 35px;
+
+  background-color: #2563eb;
+
+  color: #ffffff;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  transition: background-color 0.2s ease;
+}
+
+#contacto button:hover {
+  background-color: #3b82f6;
+}

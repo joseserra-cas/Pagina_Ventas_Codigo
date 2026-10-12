@@ -1,0 +1,123 @@
+/* =========================
+   HERO
+========================= */
+
+#inicio {
+  min-height: 550px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 80px 20px;
+
+  position: relative;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url("../assets/images/Fondo/Fondo_1.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+}
+
+
+/* =========================
+   CONTENIDO
+========================= */
+
+#inicio h2 {
+  max-width: 800px;
+
+  font-size: 56px;
+  line-height: 1.1;
+
+  color: #ffffff;
+
+  margin-bottom: 25px;
+
+  position: relative;
+  z-index: 1;
+}
+
+#inicio p {
+  font-size: 20px;
+
+  color: #ffffff;
+
+  margin-bottom: 35px;
+
+  position: relative;
+  z-index: 1;
+}
+
+#inicio button {
+  padding: 15px 30px;
+
+  background-color: #2563eb;
+
+  color: #ffffff;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+
+  position: relative;
+  z-index: 1;
+}
+
+#inicio button:hover {
+  background-color: #1d4ed8;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  #inicio h2 {
+    font-size: 44px;
+  }
+
+}
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 600px) {
+
+  #inicio {
+    min-height: 500px;
+
+    padding: 60px 20px;
+  }
+
+  #inicio h2 {
+    font-size: 36px;
+  }
+
+  #inicio p {
+    font-size: 17px;
+  }
+
+}

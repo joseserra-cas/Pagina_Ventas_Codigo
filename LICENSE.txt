@@ -1,0 +1,59 @@
+COMMERCIAL TEMPLATE LICENSE
+
+Copyright (c) 2026 José Antonio Serra Castillo
+
+All rights reserved.
+
+By purchasing, downloading, or using this template, you agree to the following terms.
+
+### 1. Permitted Use
+
+The purchaser is granted a non-exclusive, non-transferable license to:
+
+- Use the template for personal or commercial projects.
+- Modify and customize the source code.
+- Create and deploy websites for themselves or their clients.
+- Use the template as part of a larger project or application.
+
+### 2. Restrictions
+
+The purchaser may not:
+
+- Resell, redistribute, sublicense, or share the original template or substantially similar source code as a standalone product.
+- Upload the template to public repositories or file-sharing platforms for redistribution.
+- Claim ownership of the original template or its unmodified components.
+- Redistribute included assets separately when those assets are not licensed for such redistribution.
+
+### 3. Ownership
+
+The original template and its source code remain the property of the original author, except for third-party components and assets that are subject to their own licenses.
+
+This license grants usage rights and does not transfer ownership of the original template.
+
+### 4. Third-Party Components
+
+Third-party libraries, fonts, icons, images, and other assets may be subject to separate licenses and terms. The purchaser is responsible for complying with those terms.
+
+### 5. Support and Updates
+
+Technical support, future updates, installation services, and customization are not guaranteed unless explicitly included in the product listing or a separate agreement.
+
+### 6. Warranty Disclaimer
+
+The template is provided "as is", without warranties of any kind, to the maximum extent permitted by applicable law.
+
+The author is not responsible for damages or losses resulting from the use or inability to use the template, except where liability cannot legally be excluded.
+
+### 7. Termination
+
+If the purchaser violates these license terms, the license may be terminated to the extent permitted by applicable law.
+
+### 8. Contact
+
+For licensing questions, contact:
+
+joseserracastilllo@gmail.com
+
+---
+
+By purchasing or using this template, you acknowledge that you have read and agreed to these terms.

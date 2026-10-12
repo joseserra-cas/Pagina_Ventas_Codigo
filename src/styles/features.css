@@ -1,0 +1,48 @@
+/* =========================
+   BENEFICIOS
+========================= */
+
+#beneficios {
+  background-color: #f8f9fa;
+}
+
+#beneficios ul {
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+
+  list-style: none;
+}
+
+#beneficios li {
+  padding: 25px;
+
+  background-color: #ffffff;
+
+  border-radius: 10px;
+
+  border: 1px solid #e5e7eb;
+
+  font-size: 17px;
+  font-weight: 500;
+
+  color: #374151;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+  #beneficios ul {
+    grid-template-columns: 1fr;
+  }
+
+}

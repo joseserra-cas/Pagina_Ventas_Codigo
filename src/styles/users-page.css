@@ -1,0 +1,259 @@
+.users-page {
+  min-height: 75vh;
+  padding: 65px 20px 80px;
+  background:
+    radial-gradient(circle at top left, #dbeafe 0, transparent 35%),
+    #f8f9fa;
+}
+
+.users-container {
+  width: 100%;
+  max-width: 490px;
+  margin: 0 auto;
+}
+
+.users-intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.users-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dbeafe;
+  color: #2563eb;
+  border-radius: 18px;
+}
+
+.users-intro h1 {
+  color: #111827;
+  font-size: 30px;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+.users-intro p {
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.users-card {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.07);
+}
+
+.users-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #f3f4f6;
+  padding: 6px;
+  gap: 6px;
+}
+
+.users-tabs button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 13px 8px;
+  background: transparent;
+  color: #6b7280;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.users-tabs button.active {
+  color: #2563eb;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.users-form-content {
+  padding: 30px;
+}
+
+.users-form-content h2 {
+  color: #111827;
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+
+.users-form-description {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.users-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.users-field > label {
+  color: #374151;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.users-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 13px;
+  min-height: 49px;
+  border: 1px solid #d1d5db;
+  border-radius: 9px;
+  color: #9ca3af;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.users-input-wrapper:focus-within {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.users-input-wrapper input {
+  width: 100%;
+  min-width: 0;
+  padding: 12px 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #111827;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.users-input-wrapper input::placeholder {
+  color: #9ca3af;
+}
+
+.users-password-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: #6b7280;
+  background: transparent;
+}
+
+.users-field small {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.users-form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 2px 0 22px;
+}
+
+.users-remember {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #4b5563;
+  font-size: 12px;
+}
+
+.users-remember input,
+.users-terms input {
+  accent-color: #2563eb;
+}
+
+.users-forgot {
+  padding: 0;
+  background: transparent;
+  color: #2563eb;
+  font-size: 12px;
+}
+
+.users-terms {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin: 3px 0 22px;
+  color: #4b5563;
+  font-size: 13px;
+}
+
+.users-terms input {
+  margin-top: 4px;
+}
+
+.users-submit {
+  width: 100%;
+  padding: 14px;
+  border-radius: 9px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.users-submit:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.users-switch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 25px;
+  color: #6b7280;
+  font-size: 13px;
+  text-align: center;
+}
+
+.users-switch button {
+  padding: 0;
+  background: transparent;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.users-back-link {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.users-back-link a:hover {
+  color: #2563eb;
+}
+
+@media (max-width: 500px) {
+  .users-page {
+    padding: 40px 15px 60px;
+  }
+
+  .users-intro h1 {
+    font-size: 26px;
+  }
+
+  .users-form-content {
+    padding: 23px 20px;
+  }
+
+  .users-form-options {
+    align-items: flex-start;
+  }
+}

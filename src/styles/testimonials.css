@@ -1,0 +1,33 @@
+/* =========================
+   TESTIMONIOS
+========================= */
+
+#testimonios {
+  background-color: #ffffff;
+}
+
+#testimonios article {
+  max-width: 700px;
+
+  margin: 0 auto 20px;
+
+  padding: 25px 30px;
+
+  background-color: #f8f9fa;
+
+  border-radius: 10px;
+
+  border-left: 4px solid #2563eb;
+}
+
+#testimonios article p {
+  color: #4b5563;
+
+  font-size: 17px;
+
+  margin-bottom: 10px;
+}
+
+#testimonios article strong {
+  color: #111827;
+}

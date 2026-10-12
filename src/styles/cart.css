@@ -1,0 +1,320 @@
+.cart {
+  position: fixed;
+
+  top: 70px;
+  right: 0;
+
+  width: 380px;
+  height: calc(100vh - 70px);
+
+  background-color: #ffffff;
+
+  border-left: 1px solid #e5e7eb;
+
+  box-shadow:
+    -5px 0 25px rgba(0, 0, 0, 0.10);
+
+  z-index: 2000;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ENCABEZADO */
+
+.cart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 22px;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.cart-header h2 {
+  font-size: 22px;
+  color: #111827;
+}
+
+.cart-count {
+  min-width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background-color: #2563eb;
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* PRODUCTOS */
+
+.cart-products {
+  flex: 1;
+
+  overflow-y: auto;
+
+  padding: 20px;
+}
+
+.cart-empty {
+  text-align: center;
+
+  margin-top: 50px;
+
+  color: #6b7280;
+}
+
+/* PRODUCTO */
+
+.cart-product {
+  display: flex;
+
+  gap: 15px;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.cart-product-image {
+  width: 80px;
+  height: 80px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-product-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.cart-product-info {
+  flex: 1;
+}
+
+.cart-product-info strong {
+  display: block;
+
+  color: #2563eb;
+
+  font-size: 18px;
+
+  margin-bottom: 10px;
+}
+
+/* CONTROLES */
+
+.cart-product-controls {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 8px;
+}
+
+.cart-product-controls button {
+  width: 28px;
+  height: 28px;
+
+  border-radius: 6px;
+
+  background-color: #f3f4f6;
+
+  color: #111827;
+
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-product-controls button:hover {
+  background-color: #e5e7eb;
+}
+
+.cart-product-controls span {
+  min-width: 20px;
+
+  text-align: center;
+
+  font-weight: 600;
+}
+
+/* ELIMINAR */
+
+.cart-remove {
+  background: none;
+
+  color: #ef4444;
+
+  font-size: 13px;
+
+  padding: 0;
+}
+
+.cart-remove:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+.cart-footer {
+  padding: 20px;
+
+  border-top: 1px solid #e5e7eb;
+
+  background-color: #ffffff;
+}
+
+.cart-total {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 15px;
+
+  font-size: 18px;
+}
+
+.cart-total strong {
+  color: #2563eb;
+
+  font-size: 22px;
+}
+
+.cart-checkout {
+  width: 100%;
+
+  padding: 14px;
+
+  border-radius: 8px;
+
+  background-color: #111827;
+
+  color: #ffffff;
+
+  font-size: 16px;
+
+  font-weight: 600;
+}
+
+.cart-checkout:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.cart-checkout:disabled {
+  background-color: #d1d5db;
+
+  color: #6b7280;
+
+  cursor: not-allowed;
+}
+
+/* MÓVIL */
+
+@media (max-width: 600px) {
+
+  .cart {
+    width: 100%;
+
+    top: 0;
+
+    height: 100vh;
+  }
+}
+
+.cart-overlay {
+  position: fixed;
+
+  inset: 0;
+
+  background-color: rgba(0, 0, 0, 0.35);
+
+  z-index: 1999;
+}
+
+.cart-close {
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+
+  color: #6b7280;
+
+  font-size: 30px;
+  line-height: 1;
+
+  border-radius: 6px;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.cart-close:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.cart-header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart-checkout {
+  display: block;
+
+  width: 100%;
+
+  padding: 14px;
+
+  border-radius: 8px;
+
+  background-color: #111827;
+
+  color: #ffffff;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  text-align: center;
+
+  transition: background-color 0.2s ease;
+}
+
+.cart-checkout:hover {
+  background-color: #2563eb;
+}
+
+.cart-checkout.disabled {
+  background-color: #d1d5db;
+
+  color: #6b7280;
+
+  cursor: not-allowed;
+}
